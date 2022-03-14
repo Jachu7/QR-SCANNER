@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.camera-stream {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+#run-stream {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.canvas {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+#canvasBtn {
+    width: 200px;
+    height: 50px;
+}
+
+p {
+    font: 12px "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10%;
+}
